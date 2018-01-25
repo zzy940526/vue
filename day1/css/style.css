@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    position: relative;
+}
+.dialog{
+    width: 300px;
+    height: 200px;
+    border: 2px solid salmon;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dialog-title {
+    border-bottom: 1px solid salmon;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: brown;
+    font-size: 20px;
+}
+.close{
+    float: right;
+}
+.dialog-content{
+    font-size: 26px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.btn{
+    display: block;
+    width: 80px;
+    height: 25px;
+    background: pink;
+    border: 1px solid brown;
+    outline: none;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 150px auto 0;
+}
+.mark{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
